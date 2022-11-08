@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Salim Khan PHP & Laravel Developer</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+ <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+ 
+ <style>
+/*whatsapp icon code */
+#whatsapp .wtsapp{
+    position: fixed;
+    transform: all 1s ease;
+    background: #25d366;
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius:50px;
+    border-right: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    bottom: 70px;
+    right:20px;
+    border: 0px;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+#whatsapp .wtsapp:before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top:50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 60px;
+    height:60px;
+    background-color: #25d366;
+    border-radius:50%;
+    -webkit-animation:pulse-border 1500ms ease-out infinite;
+    animation: pulse-border 800ms ease-out infinite;
+}
+#whatsapp .wtsapp:focus{
+    border: none;
+    outline: none;
+}
+@keyframes pulse-border {
+    0%{transform:translateX(-50%) translateY(-50%) translateZ(0) scale(1); opacity: 1;}
+    100%{transform:translateX(-50%) translateY(-50%) translateZ(0) scale(1.5); opacity: 0;}
+}
+
+@keyframes blinking {
+        0% {
+          background-color: white;
+          border-radius: 25px 0px 25px 0px;
+        }
+        100% {
+          background-color: #FD6802;
+          border-radius: 25px 0px 25px 0px;
+        }
+      }
+      #blink {
+        animation: blinking 1s infinite;
+      }
+ </style>
+
+</head>
+<body>
+
+    <!-- LOADER -->
+    <!--<div id="preloader">-->
+    <!--    <div class="loader">-->
+    <!--        <div class="loader__bar"></div>-->
+    <!--        <div class="loader__bar"></div>-->
+    <!--        <div class="loader__bar"></div>-->
+    <!--        <div class="loader__bar"></div>-->
+    <!--        <div class="loader__bar"></div>-->
+    <!--        <div class="loader__ball"></div>-->
+    <!--    </div>-->
+    <!--</div>  -->
+     
+    
+    <div class="top-bar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="left-top">
+                        <div class="email-box">
+                            <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> salimkhan47880@gmail.com</a>
+                        </div>
+                        <div class="phone-box">
+                            <a href="tel:1234567890"><i class="fa fa-phone" aria-hidden="true"></i> +923365627388</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="right-top">
+                        <div class="social-box">
+                            <ul>
+<li><a href="https://web.facebook.com/people/Salim-Khan/100039079851801/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+<li><a href="https://www.linkedin.com/in/salim-khan-ab0b12200/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+<li><a href="JavaScript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+<li><a href="JavaScript:void(0)"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+<li><a href="JavaScript:void(0)"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            <ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header header_style_01">
+        <nav class="megamenu navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Web Designing & Developer</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/headerlogo.png" alt="php & laravel developer"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right" id="firstnav">
+<li><a class="active" href="index.html">Home</a></li>
+<li><a href="#about" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">About us</a></li>
+<li><a href="#Experience" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">Experience</a></li>
+<li><a href="#skillSection" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">Skills</a></li>
+<li><a href="#whatIDo" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">Services</a></li>
+<li><a href="#portfolio" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">Portfolio</a></li>
+<li><a href="#featuresSection" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">Features</a></li>
+<li><a href="#contact" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">Contact</a></li>
+<li id="blink"><a href="images/salim_khan_cv.pdf" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" target="_blank" class="blink">CV</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="slider-area">
+        <div class="slider-wrapper owl-carousel">
+            <div class="slider-item home-one-slider-otem slider-item-four slider-bg-one" style="background-image:url('images/slider_01.jpg');">
+                <div class="container">
+                    <div class="row">
+                        <div class="slider-content-area">
+                            <div class="slide-text">
+                                <h1 class="homepage-three-title">Website <span>Designing</span> & Development</h1>
+                                <h2> Get Professional + 100% Customized Website Designing & Development Services </h2>
+                                <div class="slider-content-btn">
+                                    <a class="button btn btn-light btn-radius btn-brd" href="#contact">Hire Me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item text-center home-one-slider-otem slider-item-four slider-bg-two" style="background-image:url('images/slider_02.jpg');">
+                <div class="container">
+                    <div class="row">
+                        <div class="slider-content-area">
+                            <div class="slide-text">
+                                <h1 class="homepage-three-title">SEO Search <span>Engine</span> Optimization</h1>
+                                <h2> Rank your Business in Search Engine & Get High Traffic </h2>
+                                <div class="slider-content-btn">
+                                    <a class="button btn btn-light btn-radius btn-brd" href="#contact">Hire Me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item home-one-slider-otem slider-item-four slider-bg-three" style="background-image:url('images/slider_03.jpg');">
+                <div class="container">
+                    <div class="row">
+                        <div class="slider-content-area">
+                            <div class="slide-text">
+                                <h1 class="homepage-three-title">Landing <span>Pages</span> Designing</h1>
+                                <h2> Design amazing modern Html landing pages with the best use of my skills in Html, CSS, Bootstrap, and JavaScript, you can promote your all web design & development services. </h2>
+                                <div class="slider-content-btn">
+                                    <a class="button btn btn-light btn-radius btn-brd" href="#contact">Hire Me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="section wb" style="padding:0px;padding-top:120px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/about.jpg" alt="" class="img-responsive img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+                
+                <div class="col-md-6">
+                    <div class="message-box">
+                        <h3 class="h3">Hello! I'm <span style="color:#fd6802;">Salim Khan</span></h3>
+                        <h4>Web Designer & Developer</h4>
+                        <p class="lead">Full Stact Web Developer with three years experience in
+                        Core PHP and one year experience in Laravel. Specializing
+                        in Backend development with all stages of the
+                        development cycle for dynamic web projects. Well-versed
+                        in numerous web technologies including HTML, CSS,
+                        Bootstrap, JavaScript, jQuery, AJAX, PHP, Laravel and
+                        MySQL.</p>
+
+                        <p> In my professional experience, I have designed many Web Application, Websites & Landing Pages. </p>
+
+                        <a href="#contact" class="btn btn-light btn-radius btn-brd grd1">Hire Me</a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+
+<div class="container-fluid bg-white" id="Experience" style="padding-top:120px;">
+<div class="row">
+<center><h3 class="h3">Work Experience</h3></center>
+</div>
+<div class="pset">
+  <div class="container">
+    <div class="row listar-feature-items">
+
+      <div class="col-xs-12 col-sm-6 col-md-4 listar-feature-item-wrapper listar-feature-with-image listar-height-changed" data-aos="fade-zoom-in" data-aos-group="features" data-line-height="25.2px">
+        <div class="listar-feature-item listar-feature-has-link">
+
+          <div class="listar-feature-item-inner">
+
+             
+
+            <div class="listar-feature-block-content-wrapper">
+              <div class="listar-feature-icon-wrapper">
+                <div class="listar-feature-icon-inner">
+                  <div>
+                    <img alt="Businesses" class="listar-image-icon" src="images/cap.png">
+                  </div>
+                </div>
+              </div>
+
+              <div class="listar-feature-content-wrapper" style="padding-top: 0px;">
+
+<div class="listar-feature-item-excerpt" style="text-align:left;min-height:200px;">
+<h2 style="font-size:15px;"><b>BACHELOR DEGREE <span style="color:#fd6802;font-size:12px;"><br>USTB Bannu</span></b></h2>
+  Bachelor of Computer Science from University of
+Science & Technology, Bannu.
+ </div>
+
+<br>
+<div class="listar-feature-item-title listar-feature-counter-added" onclick="window.open('uploads/edu_certificate.jpeg', '_blank')">
+  <span style="cursor:pointer !important;"><span><i class="fa fa-arrow-down" aria-hidden="true" style="font-size:15px;"></i></span>
+    Certificate </span>
+</div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="listar-feature-fix-bottom-padding listar-fix-feature-arrow-button-height"></div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4 listar-feature-item-wrapper listar-feature-with-image listar-height-changed" data-aos="fade-zoom-in" data-aos-group="features" data-line-height="25.2px">
+        <div class="listar-feature-item listar-feature-has-link">
+          <div class="listar-feature-item-inner">
+
+
+            <div class="listar-feature-block-content-wrapper">
+              <div class="listar-feature-icon-wrapper">
+                <div class="listar-feature-icon-inner">
+                  <div>
+                    <img alt="Customers" class="listar-image-icon" src="images/companybuilding.png">
+                  </div>
+                </div>
+              </div>
+
+              <div class="listar-feature-content-wrapper" style="padding-top: 0px;">
+
+<div class="listar-feature-item-excerpt" style="text-align:left;min-height:200px;">
+<h2 style="font-size:15px;"><b>NFINITLY IT SOLUTION <span style="color:#fd6802;font-size:12px;"><br>PHP Developer</span></b></h2>
+I have worked at INFINITLY IT Solution & Education System, Peshawar, as a PHP Developer for two years from Jan 2020 - Apr 2022.
+</div>
+
+<br>
+<div class="listar-feature-item-title listar-feature-counter-added" onclick="window.open('images/infinitly_certificate.pdf', '_blank')">
+<span style="cursor:pointer !important;"><span><i class="fa fa-arrow-down" aria-hidden="true" style="font-size:15px;"></i></span>
+Certificate </span>
+</div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="listar-feature-fix-bottom-padding listar-fix-feature-arrow-button-height"></div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4 listar-feature-item-wrapper listar-feature-with-image listar-height-changed" data-aos="fade-zoom-in" data-aos-group="features" data-line-height="25.2px">
+        <div class="listar-feature-item listar-feature-has-link">
+
+          <div class="listar-feature-item-inner">
+
+
+            <div class="listar-feature-block-content-wrapper">
+              <div class="listar-feature-icon-wrapper">
+                <div class="listar-feature-icon-inner">
+                  <div>
+                    <img alt="Feedback" class="listar-image-icon" src="images/companybuilding.png">
+                  </div>
+                </div>
+              </div>
+
+              <div class="listar-feature-content-wrapper" style="padding-top: 0px;">
+
+<div class="listar-feature-item-excerpt" style="text-align:left;min-height:200px;">
+<h2 style="font-size:15px;"><b>GUMPTION  TECHNOLOGIES <span style="color:#fd6802;font-size:12px;"><br>PHP & Laravel Developer</span></b></h2>
+I have worked 5 months as a PHP & Laravel Developer at Gumption Technologies Software company in Rawalpindi from Apr 2022 - Aug 2022
+
+</div>
+
+<br>
+<div class="listar-feature-item-title listar-feature-counter-added" onclick="alert('It will uploaded soon.')">
+  <span style="cursor:pointer !important;"><span><i class="fa fa-arrow-down" aria-hidden="true" style="font-size:15px;"></i></span>
+    Certificate </span>
+</div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="listar-feature-fix-bottom-padding listar-fix-feature-arrow-button-height"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+ 
+<div class="container-fluid" id="skillSection">
+<div class="row">
+<center><h3 class="h3">Skills</h3></center>
+</div>
+<center>
+<div id="SkillBox">
+
+<div class="row">
+<div class="col-sm-6">
+<div class="SkillBar border">
+    <div id="Skill-HTML" class="border">
+      <span class="Skill-Area ">HTML</span>
+      <span class="PercentText ">100%</span>
+    </div>
+  </div>
+</div>
+<div class="col-sm-6">
+<div class="SkillBar border">
+    <div id="Skill-CSS"class="border">
+      <span class="Skill-Area ">CSS, Bootstrap</span>
+      <span class="PercentText ">70%</span>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-sm-6">
+<div class="SkillBar border">
+    <div id="Skill-JS" class="border">
+      <span class="Skill-Area ">JavaScript</span>
+      <span class="PercentText ">65%</span>
+    </div>
+  </div>
+</div>
+<div class="col-sm-6">   
+<div class="SkillBar border">
+    <div id="Skill-jQuery"class="border">
+      <span class="Skill-Area ">jQuery, AJAX</span>
+      <span class="PercentText ">60%</span>
+    </div>
+  </div>  
+</div>
+</div>
+
+<div class="row">
+<div class="col-sm-6">
+<div class="SkillBar border">
+    <div id="Skill-JAVA" class="border">
+      <span class="Skill-Area ">PHP, Laravel </span>
+      <span class="PercentText ">90%</span>
+    </div>
+  </div>
+</div>
+<div class="col-sm-6">
+<div class="SkillBar border">
+    <div id="Skill-PHP" class="border">
+      <span class="Skill-Area ">MySQL </span>
+      <span class="PercentText ">80%</span>
+    </div>
+  </div>
+</div>
+</div>
+    
+</div>
+</center> 
+</div>
+
+  <br><br>  
+    <div class="parallax section parallax-off" data-stellar-background-ratio="0.9" style="background-image:url('uploads/parallax__04.jpg');">
+        <div class="container">
+            <div class="row text-center stat-wrap">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <span data-scroll class="global-radius icon_wrap effect-1"><i class="flaticon-briefcase"></i></span>
+                    <p class="stat_count">1200</p>
+                    <h3>Complated Projects</h3>
+                </div><!-- end col -->
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <span data-scroll class="global-radius icon_wrap effect-1"><i class="flaticon-happy"></i></span>
+                    <p class="stat_count">3210</p>
+                    <h3>Happy Clients</h3>
+                </div><!-- end col -->
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <span data-scroll class="global-radius icon_wrap effect-1"><i class="flaticon-idea"></i></span>
+                    <p class="stat_count">3781</p>
+                    <h3>Customer Services</h3>
+                </div><!-- end col -->
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <span data-scroll class="global-radius icon_wrap effect-1"><i class="flaticon-customer-service"></i></span>
+                    <p class="stat_count">4300</p>
+                    <h3>Answered Questions</h3>
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+            
+
+<div id="features" class="section wb" style="padding-bottom:30px;">
+    <div class="section-title text-center" id="whatIDo">
+                <h3>What I do</h3>
+            </div><!-- end title -->
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="service-widget">
+                        <div class="post-media wow fadeIn">
+                            <a href="images/website.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                            <img src="images/website.jpg" alt="" class="img-responsive img-rounded" style="width:100%;height:250px;border-top-left-radius:20px;border-top-right-radius:20px;">
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Portfolio Website, Blog Website, E-Commerce Website, Business Website &amp; Landing Pages etc.</p>
+                    </div><!-- end service -->
+                </div><!-- end col -->
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="service-widget">
+                        <div class="post-media wow fadeIn">
+                            <a href="images/graphicdesign.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                            <img src="images/graphicdesign.png" alt="" class="img-responsive img-rounded" style="width:100%;height:250px;border-top-left-radius:20px;border-top-right-radius:20px;">
+                        </div>
+                        <h3>Graphic Design</h3>
+                        <p>Logo Design, Posters Design, Banners/ Covers, Youtube thumbnail design, photo-editing &amp; Video Editing etc. </p>
+                    </div><!-- end service -->
+                </div><!-- end col -->
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="service-widget">
+                        <div class="post-media wow fadeIn">
+                            <a href="images/seoimg.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                            <img src="images/seoimg.jpg" alt="" class="img-responsive img-rounded" style="width:100%;height:250px;border-top-left-radius:20px;border-top-right-radius:20px;">
+                        </div>
+                        <h3>Search Engine Optimization</h3>
+                        <p>SEO service for google ranking, Keyword Research &amp; Analysis, High DA Diversified Backlinks (10+ Different Sources).</p>
+                    </div><!-- end service -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+</div>
+</div>
+
+ <div id="portfolio" class="section wb">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Our Portfolio</h3>
+                <p class="lead">We build professional website templates, web design projects, material designs and UI kits. <br>Some of our awesome completed projects in below.</p>
+            </div><!-- end title -->
+        </div><!-- end container -->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="portfolio-filter text-center">
+                        <ul>
+                            <li><a class="btn btn-dark btn-radius btn-brd active" href="#" data-filter="*"><span class="oi hidden-xs" data-glyph="grid-three-up"></span> All</a></li>
+                            <li><a class="btn btn-dark btn-radius btn-brd" data-toggle="tooltip" data-placement="top" title="5" href="#" data-filter=".cat1">Websites</a></li>
+                            <li><a class="btn btn-dark btn-radius btn-brd" href="#" data-toggle="tooltip" data-placement="top" title="12" data-filter=".cat2">Mockup</a></li>
+                            <li><a class="btn btn-dark btn-radius btn-brd" href="#" data-toggle="tooltip" data-placement="top" title="21" data-filter=".cat3">Logos</a></li>
+                            <li><a class="btn btn-dark btn-radius btn-brd" href="#" data-toggle="tooltip" data-placement="top" title="11" data-filter=".cat4">Others</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <hr class="invis">
+
+            <div id="da-thumbs" class="da-thumbs portfolio">
+                <div class="post-media pitem item-w1 item-h1 cat1">
+                    <a href="https://admin.jahangirdentallab.com/projects/mobicity" target="_blank">
+                        <img src="images/mobicity.jpg" alt="" class="img-responsive" style="height:153px;">
+                        <div>
+                            <h3>Mobicity <small>Live</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="post-media pitem item-w1 item-h1 cat1">
+                    <a href="https://admin.jahangirdentallab.com/projects/mobicity/admin" target="_blank">
+                        <img src="images/mobicity_dashboard.jpg" alt="" class="img-responsive" style="height:153px;">
+                        <div>
+                            <h3>Mobicity Dashboard<small>Live</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="post-media pitem item-w1 item-h1 cat1">
+                    <a href="http://admin.jahangirdentallab.com" target="_blank">
+                        <img src="images/jahangirdentallab.jpg" alt="" class="img-responsive" style="height:153px;">
+                        <div>
+                            <h3>Jahangir Dental Lab <small>Live</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="post-media pitem item-w1 item-h1 cat1">
+                    <a href="https://shayaanestate.com/test"  target="_blank">
+                        <img src="images/shayaneste.jpg" alt="" class="img-responsive" style="height:153px;">
+                        <div>
+                            <h3>Shayan Builders & Real Estate <small>Live</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="post-media pitem item-w1 item-h1 cat1">
+                    <a href="https://oshacimg.us"  target="_blank">
+                        <img src="images/oshacimg.jpg" alt="" class="img-responsive" style="height:153px;">
+                        <div>
+                            <h3>OSHAC <small>Live</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="post-media pitem item-w1 item-h1 cat1">
+                    <a href="https://thriftplan.io"  target="_blank">
+                        <img src="images/thriftplanimg.jpg" alt="" class="img-responsive" style="height:153px;">
+                        <div>
+                            <h3>Thrift Plan <small>Live</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="post-media pitem item-w1 item-h1 cat1">
+                    <a href="http://targetball.com.pk"  target="_blank">
+                        <img src="images/targetballimg.jpg" alt="" class="img-responsive" style="height:153px;">
+                        <div>
+                            <h3>Target Ball <small>Live</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="post-media pitem item-w1 item-h1 cat1">
+                    <a href="http://pakcharity.johrnasolutions.com"  target="_blank">
+                        <img src="images/pakcharityimg.jpg" alt="" class="img-responsive" style="height:153px;">
+                        <div>
+                            <h3>Pakcharity <small>Live</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+               <div class="post-media pitem item-w1 item-h1 cat1">
+                    <a href="#"  target="_blank">
+                        <img src="images/5starimg.jpg" alt="" class="img-responsive" style="height:153px;">
+                        <div>
+                            <h3>5starmotorsgarhamore <small>Live</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="post-media pitem item-w1 item-h1 cat1">
+                    <a href="https://admin.jahangirdentallab.com/projects/studentattendance"  target="_blank">
+                        <img src="images/studentattendance.jpg" alt="" class="img-responsive" style="height:153px;">
+                        <div>
+                            <h3>Students Attendance System <small>Live</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="post-media pitem item-w1 item-h1 cat1">
+                    <a href="javascript:void(0)" data-rel="prettyPhoto[gal]">
+                        <img src="images/pixel_academy.jpg" alt="" class="img-responsive">
+                        <div>
+                            <h3>Pixel Academy <small>under construction</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+
+            </div><!-- end portfolio -->
+        </div><!-- end container -->
+    </div><!-- end section -->            
+   
+
+    <div class="parallax section noover" data-stellar-background-ratio="0.7" style="background-image:url('uploads/parallaximg_05.png');">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <div class="customwidget text-left">
+                        <h1>Beautiful Websites</h1>
+                        <p>We are pleased to introduce ourselves to you as we are working in the field of Web Development from 2020. We have the goals to achieve and our clients are always with us, we never left any of them behind as we care for them a lot.</p>
+                        <br><br>
+                        <a href="#services" data-scroll class="btn btn-light btn-radius btn-brd">Learn More</a>
+                    </div>
+                </div><!-- end col -->
+                <div class="col-md-6">
+                    <div class="text-center image-center hidden-sm hidden-xs">
+                        <img src="uploads/devicebgremove.png" alt="" class="img-responsive wow fadeInUp">
+                    </div>
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+    
+    <div id="features" class="section lb" style="background:white;">
+        <div class="container" id="featuresSection">
+            <div class="section-title text-center">
+                <h3>Features & Overviews</h3>
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="features-left">
+                        <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+                            <i class="flaticon-wordpress-logo"></i>
+                            <div class="fl-inner">
+                                <h4 class="h3mrg">WordPress Installation</h4>
+                            </div>
+                        </li>
+                        <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+                            <i class="flaticon-windows"></i>
+                            <div class="fl-inner">
+                                <h4 class="h3mrg">Browser Compatible</h4>
+                            </div>
+                        </li>
+                        <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s">
+                            <i class="flaticon-price-tag"></i>
+                            <div class="fl-inner">
+                                <h4 class="h3mrg">eCommerce Ready</h4>
+                            </div>
+                        </li>
+                        <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                            <i class="flaticon-new-file"></i>
+                            <div class="fl-inner">
+                                <h4 class="h3mrg">Easy to Customize</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 hidden-xs hidden-sm">
+                    <img src="uploads/ipad.png" class="img-center img-responsive" alt="">
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="features-right">
+                        <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+                            <i class="flaticon-pantone"></i>
+                            <div class="fr-inner">
+                                <h4 class="h3mrg">Limitless Colors</h4>
+                            </div>
+                        </li>
+                        <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
+                            <i class="flaticon-cloud-computing"></i>
+                            <div class="fr-inner">
+                                <h4 class="h3mrg">Lifetime Update</h4>
+                            </div>
+                        </li>
+                        <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.4s">
+                            <i class="flaticon-line-graph"></i>
+                            <div class="fr-inner">
+                                <h4 class="h3mrg">SEO Friendly</h4>
+                            </div>
+                        </li>
+                        <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                            <i class="flaticon-coding"></i>
+                            <div class="fr-inner">
+                                <h4 class="h3mrg">Simple Clean Code</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+<div id="contact" class="section wb" style="padding-top:0px;background-image:url('images/comtactsectionbg.png');">
+        <div class="container-fluid">
+            <div class="section-title text-center">
+                <h3>Get in touch</h3>
+                <p class="lead">Let us give you more details about the special offer website you want us. Please fill out the form below. <br>We have thousands of website owners who happy to work with us!</p>
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="contact_form">
+                        <div id="message"></div>
+                        <form id="contactform" class="row" action="contact.php" name="contactform" method="post">
+                            <fieldset class="row-fluid">
+                                <div class="col-sm-12 col-md-6">
+                                    <input type="text" name="first_name" id="first_name" class="form-control" placeholder="Your Name">
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject">
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Give us more details.."></textarea>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+                                    <button type="submit" value="SEND" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block">Submit</button>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div><!-- end col -->
+            </div><!-- end row -->
+            <br><br>
+            <center>
+            <div class="row rowWidth">
+                <div class="col-sm-4">
+                    <div class="address-item">
+                        <center>
+                        <div class="address-icon">
+                            <i class="icon icon-location2 orange"></i>
+                        </div>
+                        <h3 class="black">Address</h3>
+                        <p>Bannu KPK Pakistan</p>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="address-item">
+                        <center>
+                        <div class="address-icon">
+                            <i class="fa fa-envelope orange" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="black">Email Us</h3>
+                        <p>salimkhan47880@gmail.com</p>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="address-item">
+                        <center>
+                        <div class="address-icon">
+                            <i class="icon icon-headphones orange"></i>
+                        </div>
+                        <h3 class="black">Call Us</h3>
+                        <p>+923365627388</p>
+                        </center>
+                    </div>
+                </div>
+                </div>
+            </div><!-- end row -->
+        </center>
+            
+        </div><!-- end container -->
+    </div>    
+ 
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-5 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <img src="images/footerlogoimg.png" alt="php & laravel developer" />
+                        </div>
+                        <p> We are pleased to introduce ourselves to you as we are working in the field of Web Development from 2020. We have the goals to achieve and our clients are always with us, we never left any of them behind as we care for them a lot.</p>
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Useful Links</h3>
+                        </div>
+ 
+                        <ul class="footer-links hov">
+<div style="display:flex;">                          
+<li><a href="index.html"><span class="icon icon-arrow-right2"></span> Home</span></a></li>
+<li><a href="#about"><span class="icon icon-arrow-right2"></span> About us</span></a></li>
+</div>
+
+<div style="display:flex;"> 
+<li><a href="#Experience"><span class="icon icon-arrow-right2"></span> Experience</span></a></li>
+<li><a href="#skillSection"><span class="icon icon-arrow-right2"></span> Skills</span></a></li>
+</div>
+
+<div style="display:flex;">  
+<li><a href="#whatIDo"><span class="icon icon-arrow-right2"></span> Services</span></a></li>
+<li><a href="#portfolio"><span class="icon icon-arrow-right2"></span> Portfolio</span></a></li>
+</div>
+
+<div style="display:flex;">
+<li><a href="#featuresSection"><span class="icon icon-arrow-right2"></span> Features</span></a></li>
+<li><a href="#contact"><span class="icon icon-arrow-right2"></span> Contact</a></li>
+</div>
+
+
+                        </ul><!-- end links -->
+
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+                
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="footer-distributed widget clearfix">
+                        <div class="widget-title" style="text-align:left;">
+                            <h3>Follow Us</h3>
+                        </div>
+                        
+                        <div class="footer-right">
+<div class="simpleCircle">
+<i class="fa fa-facebook fa-2x" onclick="window.open('https://web.facebook.com/people/Salim-Khan/100039079851801/', '_blank')"></i>
+<i class="fa fa-linkedin fa-2x" onclick="window.open('https://www.linkedin.com/in/salim-khan-ab0b12200/', '_blank')"></i>
+  <i class="fa fa-instagram fa-2x"></i>
+<i class="fa fa-twitter fa-2x"></i>
+  <i class="fa fa-youtube-play fa-2x"></i>
+</div>
+ 
+                        </div>                        
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">                   
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2020 <a href="https://www.phpdeveloper.tk/"> www.phpdeveloper.tk </a> Design By :  
+                    <a href="https://html.design/"> Salim Khan (PHP & Laravel Developer) </a></p>
+                </div>
+
+                
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+
+<div id="whatsapp">
+<a href="https://wa.me/+923365627388" target="_blank" id="toggle1" class="wtsapp">
+ <i class="fa fa-whatsapp"></i>
+</a>
+</div>
+    
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/hoverdir.js"></script>  
+<script>
+    $("#firstnav li a").click(function() {
+  $("#firstnav li a").removeClass('active');
+    $(this).addClass('active');
+});
+</script> 
+<script>
+
+window.onload = function() {
+
+document.addEventListener("contextmenu", function(e){
+
+e.preventDefault();
+
+alert("action blocked");
+
+}, false);
+
+document.addEventListener("keydown", function(e) {
+
+//document.onkeydown = function(e) {
+
+// "I" key
+
+if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+
+disabledEvent(e);
+
+alert("action blocked");
+
+}
+
+// "J" key
+
+if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+
+disabledEvent(e);
+
+alert("action blocked");
+
+}
+
+// "S" key + macOS
+
+if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+
+disabledEvent(e);
+
+alert("action blocked");
+
+}
+
+// "U" key
+
+if (e.ctrlKey && e.keyCode == 85) {
+
+disabledEvent(e);
+
+alert("action blocked");
+
+}
+
+// "F12" key
+
+if (event.keyCode == 123) {
+
+disabledEvent(e);
+
+alert("action blocked");
+
+}
+
+}, false);
+
+function disabledEvent(e){
+
+if (e.stopPropagation){
+
+e.stopPropagation();
+
+} else if (window.event){
+
+window.event.cancelBubble = true;
+
+}
+
+e.preventDefault();
+
+return false;
+
+}
+
+};
+
+</script>
+</body>
+</html>
